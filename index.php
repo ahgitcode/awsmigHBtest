@@ -10,6 +10,7 @@ include("header.php");
         <section class="left-content">
             <h2><?php echo stripslashes($pageDetails["page_title"]); ?></h2>
             <?php echo stripslashes($pageDetails["page_desc"]); ?>
+            <?php echo "This is atiq line"; ?>
         </section>
     
     </div>
